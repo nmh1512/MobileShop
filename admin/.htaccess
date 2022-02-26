@@ -1,0 +1,18 @@
+RewriteEngine On
+
+RewriteRule "^login?$" "login.php"
+RewriteRule "^index?$" "index.php"
+RewriteRule "^categories?$" "cartegorylist.php"
+RewriteRule "^brands?$" "brandlist.php"
+RewriteRule "^products?$" "productlist.php"
+RewriteRule "^edit-product?$" "productedit.php"
+RewriteRule "^product-add?$" "productadd.php"
+RewriteRule "^customers?$" "customer.php"
+RewriteRule "^orders?$" "order.php"
+RewriteRule "^news?$" "news.php"
+RewriteRule "^add-news?$" "newsadd.php"
+RewriteRule "^edit-news?$" "edit-news.php"
+RewriteRule "^members?$" "member.php"
+RewriteRule "^add-member?$" "add-member.php"
+RewriteRule "^profile?$" "profile.php"
+RewriteRule "^privilege?$" "privilege.php"

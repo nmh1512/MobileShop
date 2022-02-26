@@ -1,0 +1,16 @@
+RewriteEngine On
+
+RewriteRule "^home?$" "home.php"
+RewriteRule "^search?$" "search.php"
+RewriteRule "^login?$" "login.php"
+RewriteRule "^gio-hang?$" "cartitem.php"
+RewriteRule "^checkout?$" "payment.php"
+RewriteRule "^register?$" "register.php"
+RewriteRule "^profile?$" "profile.php"
+RewriteRule "^lich-su-mua-hang?$" "orderdetail.php"
+RewriteRule "^([a-zA-Z\-]+)$" "product_By_cartegory.php?url=$1"
+RewriteRule "^([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)$" "productBybrand.php?urlCat=$1&urlBrand=$2"
+RewriteRule "^([a-zA-Z0-9\-]+)$" "product.php?urlProduct=$1"
+
+
+

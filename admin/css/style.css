@@ -1,0 +1,114 @@
+form {
+  padding: 10px;
+}
+input {
+  background-color: white !important;
+  border: 1px solid rgb(206, 206, 206) !important;
+}
+
+li {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+.modal-busy {
+  position: fixed;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+  -moz-opacity: 0.8;
+  background: white url(../img/Rolling-1s-200px.gif) no-repeat center center;
+  background-size: 3%;
+}
+.shortcut {
+  transition: 0.35s;
+}
+.shortcut:hover {
+  text-decoration: none;
+  box-shadow: 0 5px 4.75rem 6px #00000029 !important;
+  border: 1px solid #0000004d;
+}
+.checkProduct {
+  height: 500px;
+  overflow: auto;
+}
+.blog-content h2 img {
+  width: 740px !important;
+  object-fit: contain;
+  height: auto !important;
+}
+.blog-content p img {
+  width: 740px !important;
+  object-fit: contain;
+  height: auto !important;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.privilege:checked + .slider {
+  background-color: #2196f3;
+}
+
+.privilege:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+.privilege:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.privilage-item {
+    padding-left: 100px;
+}
+.privilage-item-child {
+    padding-left: 150px;
+
+}
