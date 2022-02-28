@@ -8,6 +8,11 @@ Danh mục điện thoại:
 
 ![mobile](https://user-images.githubusercontent.com/72747491/155849904-a4856745-ed35-4afd-97ab-2ce9783dc30d.png)
 
+Chi tiết sản phẩm:
+
+![product-detail1](https://user-images.githubusercontent.com/72747491/155968196-a73ecce3-eb13-49ec-8f6a-7d2bbbb3784b.PNG)
+![product-detail2](https://user-images.githubusercontent.com/72747491/155968220-cf4c3dfc-e759-4076-8b8d-203c2a6275c5.PNG)
+
 Hồ sơ khách hàng:
 
 ![profile-customer](https://user-images.githubusercontent.com/72747491/155849936-78003536-8409-4f76-9f04-7f110f59986e.png)
